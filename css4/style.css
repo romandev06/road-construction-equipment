@@ -1,0 +1,59 @@
+.sany-technique {
+    width: 2000px;
+    margin-top: 8px;
+}
+
+.garant-block {
+    min-height: 207px;
+    border-radius: 25px;
+}
+
+
+.garant-img {
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.btn-1 {
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+}
+
+.btn-2 {
+    background-color: gainsboro;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+}
+
+.btn-3 {
+    background-color: gainsboro;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+}
+
+.buttons-work {
+    margin-top: 60px;
+}
+
+
+.figure-image {
+    background-image: url(../img/Изображение\ \(1555\).svg);
+    height: 400px;
+    background-size: cover;
+}
+
+
+.second-btn button {
+    background-color: gray;
+}
+
+
+.buttons__article {
+    gap: 20px;
+}

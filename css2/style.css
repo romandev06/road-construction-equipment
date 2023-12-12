@@ -1,0 +1,71 @@
+@media screen and (max-width: 479px) {
+    .greyderi,
+    .tagachi {
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width: 319px) {
+    .first__section,
+    .second__section {
+        gap: 35px;
+    }
+}
+
+
+.first__section article div,
+.second__section article div,
+.third__section article div,
+.fourth__section article div {
+    height: 145px;
+} 
+
+
+.svg-w {
+    width: 65px;
+    height: 65px;
+}
+
+
+
+
+.first-day-way::after {
+    content: '';
+    height: 2px;
+    width: 22px;
+}
+
+.news {
+    background-image: url(../img/Изображени33333е.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.news2 {
+    background-image: url(../img/Изображени33333е.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+input[type=range] {
+    -webkit-appearance: none; /* убираем стандартные стили браузера */
+    appearance: none;
+    width: 100%; /* ширина слайдера */
+    height: 3px; /* высота слайдера */
+    background: #676464; /* цвет трека слайдера */
+    border-radius: 5px; /* скругление углов трека */
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* убираем стандартные стили браузера */
+    appearance: none;
+    width: 25px; /* ширина бегунка */
+    height: 25px; /* высота бегунка */
+    background: slategray; /* цвет бегунка */
+    border: 1px solid #333333; /* обводка бегунка */
+    border-radius: 50%; /* скругление углов бегунка */
+}
