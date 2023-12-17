@@ -1,6 +1,7 @@
 body,
 html {
     height: 100%;
+    /* background-color: gainsboro; */
 }
 
 .wrapper {
@@ -35,3 +36,8 @@ button {
 
 
 
+header,
+main,
+footer {
+    padding: 0 15px;
+}
